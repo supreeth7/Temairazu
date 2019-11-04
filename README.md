@@ -7,7 +7,7 @@
  **Language support widget:** From https://weglot.com - through a premium account.\
  **Animations From:** Animate.css (https://daneden.github.io/animate.css) \
  **News:** API for Live news JSON data provided by https://newsapi.org \
- **Map:** By Google Maps. \
+ **Map:** By Google Maps.
  
  ## Design:-
  The initial web design was made in AdobeXD and can be found in '/Protoype Design' folder.
