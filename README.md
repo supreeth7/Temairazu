@@ -14,9 +14,9 @@ http://temairazu-env.nyc6cp8v24.ap-south-1.elasticbeanstalk.com
  The initial web design was made in AdobeXD and can be found in '/Protoype Design' folder.
  
  ### Note:-
- 1. The website is SEO optimized, W3C validated with Google Analytics support. \
- 2. All the website assets and css files can be found in '/public' folder. \
- 3. All the views can be found in '/resources/views' folder. \
- 4. The main controller can be found in '/app/http/controllers/' folder. \
- 5. Please see '/routes/web.php' for page transition protocol. \
+ 1. The website is SEO optimized, W3C validated with Google Analytics support.
+ 2. All the website assets and css files can be found in '/Temairazu-Laravel/public' folder.
+ 3. All the views can be found in '/Temairazu-Laravel/resources/views' folder.
+ 4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/' folder.
+ 5. Please see '/Temairazu-Laravel/routes/web.php' for page transition protocol.
  6. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
