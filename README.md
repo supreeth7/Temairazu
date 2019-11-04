@@ -17,6 +17,6 @@ http://temairazu-env.nyc6cp8v24.ap-south-1.elasticbeanstalk.com
  1. The website is SEO optimized, W3C validated with Google Analytics support.
  2. All the website assets and css files can be found in '/Temairazu-Laravel/public' folder.
  3. All the views can be found in '/Temairazu-Laravel/resources/views' folder.
- 4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/' folder.
+ 4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/NewsController' folder.
  5. Please see '/Temairazu-Laravel/routes/web.php' for page transition protocol.
  6. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
