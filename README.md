@@ -1,8 +1,8 @@
 # Temairazu
 
 ## Website information:-
- **Frameworks Used:** Laravel 6, Boostrap 4, JQuery
- **Programming:** HTML5, CSS3, PHP 7, Javascript
+ **Frameworks Used:** Laravel 6, Boostrap 4, JQuery\
+ **Programming:** HTML5, CSS3, PHP 7, Javascript\
  **Icons Used:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.
  **Language support widget:** From https://weglot.com - through a premium account.
  **Animations From:** Animate.css (https://daneden.github.io/animate.css)
