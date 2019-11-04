@@ -11,3 +11,5 @@
  
  ## Design:-
  The initial web design was made in AdobeXD and can be found in '/Protoype Design' folder.
+ 
+ **The website is SEO optimized with Google Analytics support**
