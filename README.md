@@ -1,5 +1,5 @@
 # Temairazu
-http://temairazu-env.nyc6cp8v24.ap-south-1.elasticbeanstalk.com
+http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
 
 ## Website information:-
  **Frameworks used:** Laravel 6, Boostrap 4, JQuery\
