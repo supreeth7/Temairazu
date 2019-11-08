@@ -1,0 +1,179 @@
+/*For non-pc devices */
+@media (max-width: 992px) {
+
+    /* Disable animations */
+
+    .animated {
+        display: unset;
+    }
+
+    /* Disable animations */
+
+    .dropdown-menu {
+        border: none;
+        text-align: end;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: initial;
+    }
+
+    .dropdown-menu :hover {
+        display: initial;
+        background-color: #fff;
+        color: black;
+    }
+
+
+    .landing-art {
+        margin-top: 5%;
+    }
+
+    .multi-img {
+        display: flex;
+        margin: auto;
+        width: 40%;
+    }
+
+    .dantai-travel-img {
+        display: flex;
+        margin: auto;
+        width: 80%;
+    }
+
+    .dantai-travel-sec {
+        padding-top: 7%;
+    }
+
+    .news-col {
+        margin-top: 7%;
+    }
+
+    .footer-sec {
+        font-size: 80%;
+    }
+
+    .partners-list img {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tokyo-img {
+        top: 0px;
+        left: 0px;
+    }
+
+    @-webkit-keyframes animateCloud {
+        0% {
+            margin-left: -10px;
+        }
+
+
+
+        50% {
+            margin-left: 10%;
+        }
+
+        100% {
+            margin-left: -10px;
+        }
+    }
+
+    .x1 {
+        animation: animateCloud 8s linear infinite;
+    }
+
+}
+
+/* For small screens like iPhones */
+@media (max-width: 576px) {
+
+    .partners-heading {
+        font-size: 50%;
+    }
+
+    .main-logo {
+        width: 50%;
+    }
+
+    .hero-heading {
+        font-size: 180%;
+    }
+
+    .card {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 6%;
+    }
+
+
+    .navbar-toggler {
+        margin-top: -10%;
+    }
+
+    .hiring-img {
+        width: 20%;
+    }
+
+    .card-image {
+        width: 80%;
+        margin: auto;
+    }
+
+    .dantai-button,
+    .multi-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dantai-travel-sec .heading,
+    .multi-sec .heading {
+        font-size: 120%;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    .phone-img {
+        width: 8%;
+    }
+
+    .update-subject,
+    .news-col {
+        font-size: 80%;
+    }
+
+    .update-button .btn {
+        font-size: 80%;
+    }
+
+    .new {
+        width: 12%;
+    }
+
+    .partners-sec a {
+        font-size: 60%;
+    }
+
+    .google-maps {
+        margin-left: 3%;
+    }
+}
+
+/* for medium screens like iPads */
+@media (min-width: 768px) and (max-width: 992px) {
+    .card {
+        margin-bottom: 7%;
+    }
+
+    .card-image {
+        width: 65%;
+        margin: auto;
+    }
+
+    .google-maps {
+        margin: auto;
+    }
+}
