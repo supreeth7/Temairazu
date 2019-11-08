@@ -2,12 +2,13 @@
 http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
 
 ## Website information:-
- **Frameworks used:** Laravel 6, Boostrap 4, JQuery\
+ **Frameworks:** Laravel 6, Boostrap 4, JQuery\
  **Programming:** HTML5, CSS3, PHP 7, Javascript\
- **Icons used:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.\
+ **Database:** MySQL 5.7 database in AWS RDS
+ **PDF storage:** AWS S3 Bucket
+ **Icons:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.\
  **Language support widget:** From https://weglot.com - through a premium account.\
- **Animations from:** Animate.css (https://daneden.github.io/animate.css) \
- **News:** API for Live news JSON data provided by https://newsapi.org \
+ **Animations:** Animate.css (https://daneden.github.io/animate.css) \
  **Map:** By Google Maps.
  
  ## Design:-
@@ -18,5 +19,7 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
  2. All the website assets and css files can be found in '/Temairazu-Laravel/public' folder.
  3. All the views can be found in '/Temairazu-Laravel/resources/views' folder.
  4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/NewsController' folder.
- 5. Please see '/Temairazu-Laravel/routes/web.php' for page navigation setup.
- 6. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
+ 5. The database configuration can be found in '/Temairazu-Laravel/.env' file.
+ 6. The database screenshots can be found in '/database_screenshots' folder.
+ 7. Please see '/Temairazu-Laravel/routes/web.php' for page routes.
+ 8. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
