@@ -32,8 +32,7 @@
                     <a href="https://www.temairazu.com/ir/relation" class="dropdown-item">Financial information</a>
                     <a href="https://www.temairazu.com/ir/stock" class="dropdown-item">Stock information</a>
                     <a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2477.T" class="dropdown-item">Stock
-                        price
-                        information</a>
+                        price information</a>
                     <a href="https://www.temairazu.com/ir/notice" class="dropdown-item">Electronic notice</a>
                     <a href="https://www.temairazu.com/ir/ir_policy" class="dropdown-item">IR policy</a>
                 </div>
