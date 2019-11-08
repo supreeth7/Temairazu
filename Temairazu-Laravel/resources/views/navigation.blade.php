@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg pt-3">
 
-    <a href="#" class="navbar-brand pl-2"><img src="/Assets/tema_corp_logo_wide.svg" alt="logo" class="main-logo"></a>
+    <a href="/" class="navbar-brand"><img src="/Assets/tema_corp_logo_wide.svg" alt="logo" class="main-logo"></a>
 
     <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
@@ -9,7 +9,6 @@
 
     <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto text-right pr-2">
-            <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                     class="nav-link active dropdown-toggle">Services</a>
@@ -25,6 +24,19 @@
             <li class="nav-item"><a href="#news" class="nav-link active js-scroll-updates">News</a>
             </li>
             <li class="nav-item"><a href="#careers" class="nav-link active js-scroll-careers">Careers</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    class="nav-link active dropdown-toggle">Information for Investors</a>
+                <div class="dropdown-menu">
+                    <a href="https://www.temairazu.com/ir/relation" class="dropdown-item">Financial information</a>
+                    <a href="https://www.temairazu.com/ir/stock" class="dropdown-item">Stock information</a>
+                    <a href="http://stocks.finance.yahoo.co.jp/stocks/detail/?code=2477.T" class="dropdown-item">Stock
+                        price
+                        information</a>
+                    <a href="https://www.temairazu.com/ir/notice" class="dropdown-item">Electronic notice</a>
+                    <a href="https://www.temairazu.com/ir/ir_policy" class="dropdown-item">IR policy</a>
+                </div>
             </li>
             <li class="nav-item dropdown">
                 <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
