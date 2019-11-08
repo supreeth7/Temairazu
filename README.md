@@ -4,8 +4,8 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
 ## Website information:-
  **Frameworks:** Laravel 6, Boostrap 4, JQuery\
  **Programming:** HTML5, CSS3, PHP 7, Javascript\
- **Database:** MySQL 5.7 database in AWS RDS
- **PDF storage:** AWS S3 Bucket
+ **Database:** MySQL 5.7 database in AWS RDS\
+ **PDF storage:** AWS S3 Bucket\
  **Icons:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.\
  **Language support widget:** From https://weglot.com - through a premium account.\
  **Animations:** Animate.css (https://daneden.github.io/animate.css) \
