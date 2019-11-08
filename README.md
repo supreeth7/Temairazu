@@ -3,7 +3,7 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
 
 ## Website information:-
  **Frameworks:** Laravel 6, Boostrap 4, JQuery\
- **Programming:** HTML5, CSS3, PHP 7, Javascript\
+ **Programming:** HTML5, CSS3, PHP 7\
  **Database:** MySQL 5.7 database in AWS RDS\
  **PDF storage:** AWS S3 Bucket\
  **Icons:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.\
