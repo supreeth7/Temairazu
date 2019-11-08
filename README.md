@@ -20,6 +20,6 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
  3. All the views can be found in '/Temairazu-Laravel/resources/views' folder.
  4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/NewsController' folder.
  5. The database configuration can be found in '/Temairazu-Laravel/.env' file.
- 6. The database screenshots can be found in '/database_screenshots' folder.
+ 6. The database screenshots can be found in '/Database Screenshot' folder.
  7. Please see '/Temairazu-Laravel/routes/web.php' for page routes.
  8. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
