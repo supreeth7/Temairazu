@@ -87,7 +87,7 @@ $(document).ready(function () {
         });
         $('.counter-member-c').easy_number_animate({
             start_value: 0,
-            end_value: 96,
+            end_value: 93,
             duration: 1500
         });
         $('.counter-member-d').easy_number_animate({

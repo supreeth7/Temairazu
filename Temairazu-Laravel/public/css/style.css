@@ -152,7 +152,7 @@ hr {
 }
 
 .partners-sec {
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .partners-heading p {
@@ -494,23 +494,22 @@ hr {
     margin-top: 3%;
 }
 
-.careers-sec {
-    margin-top: 4%;
-    opacity: 0;
-}
-
 /*** Multi-support Section ***/
 
 
 
 /*** Careers Section ***/
 
-.careers-sec.animated {
+.careers-sec {
     margin-top: 8%;
-    opacity: 1;
-    transition: opacity ease;
+    opacity: 0;
     background: #f5f6fa;
     padding: 5%;
+}
+
+.careers-sec.animated {
+    opacity: 1;
+    transition: opacity ease;
 }
 
 
@@ -524,7 +523,8 @@ hr {
     border-bottom-left-radius: 3px;
     background-color: #FFF;
     box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
-    padding: 3rem;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .hiring p {

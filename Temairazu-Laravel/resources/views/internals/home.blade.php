@@ -111,7 +111,7 @@
                     </div>
                     <div class="card-image text-center service-ico">
                         <span class="ico-circle">
-                            <ion-icon name="ios-trending-down"></ion-icon>
+                            <ion-icon name="ios-wallet"></ion-icon>
                         </span>
                     </div>
                     <div class="card-body">
@@ -373,7 +373,7 @@
                 </p>
             </div>
             <div class="col-lg-8 mx-auto">
-                <a href="https://www.temairazu.com/recruit/staff" class="arrow-link">See what our employees have to say
+                <a href="https://www.temairazu.com/recruit/staff" class="arrow-link">Working with Temairazu
                     <img src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
             </div>
             <div class="container">
