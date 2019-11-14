@@ -4,11 +4,11 @@
 
 <!-- Main-start -->
 <section class="hero">
-    <div class="container mb-5">
+    <div class="container">
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                <h1 class="hero-heading mb-0">The industry's leading<br>channel manager</h1>
+                <h1 class="hero-heading">The industry's leading<br>channel manager</h1>
                 <div class="main-btns d-flex justify-content-center">
                     <a class="btn btn-primary mt-4 mr-3" href="https://www.temairazu.com/contact/request">Document</a>
                     <a class="btn btn-outline-primary mt-4 ml-3"
@@ -17,8 +17,7 @@
             </div>
 
             <div class="col-lg-6 landing-art">
-                <img src="./Assets/clouds.svg" alt="" class="clouds x1">
-                <img src="./Assets/tokyo.svg" alt="" class="tokyo-img">
+                <img src="./Assets/main-phone.svg" alt="" class="main-phone-img">
             </div>
 
         </div>
@@ -27,7 +26,7 @@
 <!-- Main-end -->
 
 <!-- Partners-logos-start -->
-<section class="partners-sec">
+<section class="partners-sec mb-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -75,10 +74,12 @@
             <div class="col-12 col-sm-6 col-lg-3 d-flex">
                 <div class="card">
                     <div class="text-center">
-                        <h5 class="card-title">Diversify acquisition channels</h5>
+                        <h5 class="card-title">Diversify Acquisition Channels</h5>
                     </div>
-                    <div class="card-image text-center">
-                        <img src="./Assets/multichannel.svg" alt="customer-aquisition">
+                    <div class="card-image text-center service-ico">
+                        <span class="ico-circle">
+                            <ion-icon name="ios-radio"></ion-icon>
+                        </span>
                     </div>
                     <div class="card-body">
                         <p>The room information can be posted on various reservation sites, this feature
@@ -89,10 +90,12 @@
             <div class="col-12 col-sm-6 col-lg-3 d-flex">
                 <div class="card">
                     <div class="text-center">
-                        <h5 class="card-title">Opportunity loss prevention</h5>
+                        <h5 class="card-title">Opportunity Loss Prevention</h5>
                     </div>
-                    <div class="card-image text-center">
-                        <img src="./Assets/magnify-new-2.svg" alt="magnify">
+                    <div class="card-image text-center service-ico">
+                        <span class="ico-circle">
+                            <ion-icon name="ios-search"></ion-icon>
+                        </span>
                     </div>
                     <div class="card-body">
                         <p>You can centrally manage the inventory of multiple accommodation reservation sites,
@@ -104,10 +107,12 @@
             <div class="col-12 col-sm-6 col-lg-3 d-flex">
                 <div class="card">
                     <div class="text-center">
-                        <h5 class="card-title">Management cost reduction</h5>
+                        <h5 class="card-title">Management Cost Reduction</h5>
                     </div>
-                    <div class="card-image text-center">
-                        <img src="./Assets/coins-svg.svg" alt="coins">
+                    <div class="card-image text-center service-ico">
+                        <span class="ico-circle">
+                            <ion-icon name="ios-trending-down"></ion-icon>
+                        </span>
                     </div>
                     <div class="card-body">
                         <p>Updates to each site can be managed automatically 24x7,
@@ -119,10 +124,12 @@
             <div class="col-12 col-sm-6 col-lg-3 d-flex">
                 <div class="card last-card">
                     <div class="text-center">
-                        <h5 class="card-title">Fast and secure updates</h5>
+                        <h5 class="card-title">Fast and Secure Updates</h5>
                     </div>
-                    <div class="card-image text-center">
-                        <img src="./Assets/speed-svg.svg" alt="speed">
+                    <div class="card-image text-center service-ico">
+                        <span class="ico-circle">
+                            <ion-icon name="ios-flash"></ion-icon>
+                        </span>
                     </div>
                     <div class="card-body">
                         <p>Reservation information acquisition interval is short and overbooking is suppressed
@@ -142,134 +149,161 @@
         <div class="text-center mb-4">
             <h3 class="underline">News</h3>
         </div>
-        <div class="news-col p-4">
+        <!-- Nav tabs -->
 
-            <!-- Nav tabs -->
-            <div class="p-3">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-toggle="tab" href="#pr">Press Release</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#ir">IR News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#up">Updates</a>
-                    </li>
-                </ul>
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#pr">PR News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#ir">IR News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#up">Updates</a>
+            </li>
+        </ul>
 
-                <!-- Tab content -->
-                <div class="tab-content">
+        <!-- Tab content -->
+        <div class="tab-content">
 
-                    <!-- PR News-start -->
-                    <div class="tab-pane container active" id="pr">
-
-                        <!-- accessing data returned from NewsController -->
-                        @foreach ($pr as $news)
-                        <div class="news-body">
-                            <div class="row">
-                                <a href="https://temairazu-pdf.s3-ap-northeast-1.amazonaws.com/{{ $news->pdf_name . ".pdf" }}"
-                                    class="news-headline" target="_blank">{{ $news->headline }}</a>
-                            </div>
-                            <div class="row news-cols">
-                                <!-- Converting the data format from the original -->
-                                @php
-                                $date = date("d F Y", strtotime($news->created_at));
-                                $time = date("h:i A",strtotime($news->created_at));
-                                @endphp
-
-                                <div class="col-mb-4">
-                                    <p class="text-muted">{{ $date }}</p>
-                                </div>
-
-                                <p class="text-muted">|</p>
-
-                                <div class="col-mb-4">
-                                    <p class="text-muted">{{ $time }}</p>
-                                </div>
-
-                                <p class="text-muted">|</p>
-
-                                <div class="col-mb-4">
-                                    <p class="text-muted"><img src="/Assets/adobe.svg" alt="adobe">
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        @endforeach
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-outline-primary btn-sm" href="https://www.temairazu.com/press">PR News
-                                List</a>
-                        </div>
+            <!-- PR News-start -->
+            <div class="container tab-pane fade show active" id="pr">
+                <!-- accessing data returned from NewsController -->
+                @foreach ($pr as $news)
+                <div class="news-body">
+                    <div class="row">
+                        <a href="https://temairazu-pdf.s3-ap-northeast-1.amazonaws.com/{{ $news->pdf_name . ".pdf" }}"
+                            class="news-headline" target="_blank">{{ $news->headline }}</a>
                     </div>
-                    <!-- PR News-end -->
+                    <div class="row news-cols">
+                        <!-- Converting the data format from the original -->
+                        @php
+                        $date = date("d F Y", strtotime($news->created_at));
+                        $time = date("h:i A",strtotime($news->created_at));
+                        @endphp
 
-                    <!-- IR News-start -->
-                    <div class="tab-pane container fade" id="ir">
-
-                        <!-- accessing data returned from NewsController -->
-                        @foreach ($ir as $news)
-                        <div class="news-body">
-
-                            <div class="row">
-                                <a href="https://temairazu-pdf.s3-ap-northeast-1.amazonaws.com/{{ $news->pdf_name . ".pdf" }}"
-                                    class="news-headline" target="_blank">{{ $news->headline }}</a>
-                            </div>
-                            <div class="row news-cols">
-                                <!-- Converting the data format from the original -->
-                                @php
-                                $date = date("d F Y", strtotime($news->created_at));
-                                $time = date("h:i A",strtotime($news->created_at));
-                                @endphp
-                                <div class="col-mb-4">
-                                    <p class="text-muted">{{ $date }}</p>
-                                </div>
-                                <p class="text-muted">|</p>
-
-                                <div class="col-mb-4">
-                                    <p class="text-muted">{{ $time }}</p>
-                                </div>
-
-                                <p class="text-muted">|</p>
-
-                                <div class="col-mb-4">
-                                    <p class="text-muted"><img src="/Assets/adobe.svg" alt="adobe"></p>
-                                </div>
-                            </div>
+                        <div class="col-mb-4">
+                            <p class="text-muted">{{ $date }}</p>
                         </div>
-                        @endforeach
-                        <div class="d-flex justify-content-center">
-                            <a class="btn btn-outline-primary btn-sm" href="https://www.temairazu.com/ir/news">IR News
-                                List</a>
-                        </div>
-                    </div>
-                    <!-- IR News-end -->
 
-                    <!-- Updates-start -->
-                    <div class="tab-pane container fade" id="up">
-                        <div class="updates">
-                            <p class="d-flex justify-content-center"><img src="./Assets/New.svg" alt="new" class="new">
+                        <p class="text-muted">|</p>
+
+                        <div class="col-mb-4">
+                            <p class="text-muted">{{ $time }}</p>
+                        </div>
+
+                        <p class="text-muted">|</p>
+
+                        <div class="col-mb-4">
+                            <p class="text-muted"><img src="/Assets/adobe.svg" alt="adobe">
                             </p>
-                            <p class="update-heading text-center">Reservation acquisition function update</p>
-                            <p class="update-subject text-center">Accelerate reservation acquisition for all
-                                versions of the TEMAIRAZU series</p>
-                            <div class="update-button d-flex justify-content-center mt-4">
-                                <a class="btn btn-primary" href="https://www.temairazu.com/service/speedup">Update
-                                    Overview</a>
-                            </div>
                         </div>
                     </div>
-                    <!-- Updates-end -->
-
+                </div>
+                @endforeach
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-outline-primary btn-sm" href="https://www.temairazu.com/press">PR News
+                        List</a>
                 </div>
             </div>
+            <!-- PR News-end -->
+
+            <!-- IR News-start -->
+            <div class="tab-pane container fade" id="ir">
+
+                <!-- accessing data returned from NewsController -->
+                @foreach ($ir as $news)
+                <div class="news-body">
+
+                    <div class="row">
+                        <a href="https://temairazu-pdf.s3-ap-northeast-1.amazonaws.com/{{ $news->pdf_name . ".pdf" }}"
+                            class="news-headline" target="_blank">{{ $news->headline }}</a>
+                    </div>
+                    <div class="row news-cols">
+                        <!-- Converting the data format from the original -->
+                        @php
+                        $date = date("d F Y", strtotime($news->created_at));
+                        $time = date("h:i A",strtotime($news->created_at));
+                        @endphp
+                        <div class="col-mb-4">
+                            <p class="text-muted">{{ $date }}</p>
+                        </div>
+                        <p class="text-muted">|</p>
+
+                        <div class="col-mb-4">
+                            <p class="text-muted">{{ $time }}</p>
+                        </div>
+
+                        <p class="text-muted">|</p>
+
+                        <div class="col-mb-4">
+                            <p class="text-muted"><img src="/Assets/adobe.svg" alt="adobe"></p>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-outline-primary btn-sm" href="https://www.temairazu.com/ir/news">IR
+                        News
+                        List</a>
+                </div>
+            </div>
+            <!-- IR News-end -->
+
+            <!-- Updates-start -->
+            <div class="tab-pane container fade" id="up">
+                <div class="updates">
+                    <p class="d-flex justify-content-center"><img src="./Assets/New.svg" alt="new" class="new">
+                    </p>
+                    <p class="update-heading text-center">Reservation acquisition function update</p>
+                    <p class="update-subject text-center">Accelerate reservation acquisition for all
+                        versions of the TEMAIRAZU series</p>
+                    <div class="update-button d-flex justify-content-center mt-4">
+                        <a class="btn btn-primary" href="https://www.temairazu.com/service/speedup">Update
+                            Overview</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Updates-end -->
         </div>
     </div>
 </section>
 <!-- News-end -->
 
+<!-- counter start -->
+<section class="counter-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_member_counter">
+                    <span class="counter-member-a">0</span>
+                    <h4>HOTELS MANAGED</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_member_counter">
+                    <span class="counter-member-b">0</span>
+                    <h4>CITIES</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_member_counter">
+                    <span class="counter-member-c">0</span><span>M</span>
+                    <h4>BOOKINGS</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single_member_counter">
+                    <span>JP¥ </span><span class="counter-member-d">0</span><span>M</span>
+                    <h4>REVENUE</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- member_counter counter end -->
 
-<!-- Dantai-start -->
+<!-- Dantai-section-start -->
 <section class="dantai-travel-sec">
     <div class="container mb-2">
         <h3 class="text-center underline">Temairazu Dantai Travel</h3>
@@ -292,10 +326,10 @@
         </div>
     </div>
 </section>
-<!-- Dantai-end -->
+<!-- Dantai-section-end -->
 
 
-<!-- Multi-start -->
+<!-- Multi-section-start -->
 <section class="multi-sec">
     <div class="container mb-5">
         <h3 class="text-center underline">Multi-Platform Support</h3>
@@ -319,7 +353,7 @@
         </div>
     </div>
 </section>
-<!-- Multi-end -->
+<!-- Multi-section-end -->
 
 
 <!-- Careers-start -->
@@ -370,5 +404,10 @@
     </div>
 </section>
 <!-- Careers-end -->
+
+<!-- Go to top button -->
+<span id="button">
+    <ion-icon name="ios-arrow-dropup"></ion-icon>
+</span>
 
 @endsection

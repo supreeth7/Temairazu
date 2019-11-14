@@ -1,14 +1,19 @@
 /* ------------------------- */
 
 
-/*** Re-usable code ***/
+/*** Global code ***/
 
 html,
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #3D3A3A;
-    height: 100%;
+}
+
+.home-banner-area {
+    background: url(/Assets/home-banner-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 700px;
 }
 
 h3 {
@@ -17,7 +22,7 @@ h3 {
 
 .btn {
     font-weight: 500;
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 .arrow-link {
@@ -57,80 +62,82 @@ hr {
     border: 1.2px solid #0275d8;
 }
 
-/*** Re-usable code ***/
+/*** Global code ***/
 
 
 
-/*** Navigation ***/
+/*** Navigation Bar***/
 
 .main-logo {
     width: 65%;
 }
 
-nav {
+.navbar {
     font-weight: 500;
 }
 
-.nav-item {
-    padding: 0px 5px;
+.nav-menu {
+    padding: 1rem 0;
+    transition: all 0.3s ease;
 }
 
-.nav-link {
-    color: #3D3A3A;
+.nav-menu.is-scrolling,
+.nav-menu.menu-is-open {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
 }
 
-.dropdown-menu {
-    border: 0.4px solid #0275d8;
+.nav-menu.is-scrolling {
+    padding: 0;
 }
 
-.dropdown-item {
-    font-size: 15px;
-    font-weight: 500;
+.navbar-nav .nav-link {
+    position: relative;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    border-radius: 10px;
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        font-size: 14px;
+    }
 }
 
-.dropdown-menu :hover {
-    display: block;
-    background-color: #0275d8;
-    color: #fff;
-    transition: 0.3s ease background-color;
+@media (max-width:991px) {
+    .navbar-nav.is-scrolling {
+        padding-bottom: 1rem;
+    }
+
+    .navbar-nav .nav-item,
+    .dropdown-item {
+        text-align: center;
+    }
 }
 
-/*** Navigation ***/
+/*** Navigation Bar***/
 
 
 
 /*** Landing Section ***/
 
 .hero {
-    padding-top: 9%;
+    padding-top: 11%;
 }
 
 .hero-heading {
     font-weight: 600;
     text-align: center;
+
 }
 
-.tokyo-img {
-    width: 100%;
+.main-phone-img {
+    width: 80%;
     z-index: 1;
     position: relative;
-    top: -30px;
-    left: 50px;
-}
-
-.clouds {
-    width: 80%;
-    z-index: -1;
-    position: absolute;
-}
-
-.x1 {
-    animation: animateCloud 25s linear infinite;
+    top: -28px;
+    left: 26%;
 }
 
 .landing-art {
@@ -145,7 +152,7 @@ nav {
 }
 
 .partners-sec {
-    margin-top: -1%;
+    margin-top: 4%;
 }
 
 .partners-heading p {
@@ -205,7 +212,7 @@ nav {
 
 .services-sec {
     opacity: 0;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .services-sec.animated {
@@ -215,10 +222,6 @@ nav {
 
 .cards {
     margin-top: 3%;
-}
-
-.card img {
-    width: 28%;
 }
 
 .card p {
@@ -235,10 +238,10 @@ nav {
 }
 
 .card {
-    border-radius: 30px;
-    box-shadow: 0 0 0 grey;
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
     -webkit-transition: box-shadow .4s ease-out;
-    box-shadow: .8px .9px 3px grey;
+    background-color: #fff;
+    border-radius: 7px;
 }
 
 .card:hover {
@@ -251,6 +254,31 @@ nav {
     margin-top: 4%;
 }
 
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 5.2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    transition: all 500ms ease;
+}
+
+.card .service-ico {
+    margin-bottom: 1rem;
+    color: #3D3A3A;
+}
+
+.card:hover .ico-circle {
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
 /*** Services Section ***/
 
 
@@ -258,8 +286,11 @@ nav {
 /*** News ***/
 
 .news-sec {
-    margin-top: 4%;
+    margin-top: 6%;
     opacity: 0;
+    background-color: #f5f6fa;
+    padding: 5%;
+    padding-bottom: 10%;
 }
 
 .news-sec.animated {
@@ -267,15 +298,34 @@ nav {
     transition: opacity ease;
 }
 
-.news-sec .nav-link {
-    color: #0275d8;
-    font-weight: 500;
+.tab-content {
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+    padding: 3rem;
 }
 
-.news-col {
-    border: 1px solid #fff;
-    border-radius: 12px;
-    box-shadow: 2px 5px 10px grey;
+.nav-tabs {
+    border-bottom: 0;
+}
+
+.nav-tabs .nav-item .nav-link,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    padding: 1rem 1rem;
+    border-color: #faf6fb #faf6fb #FFF;
+    font-size: 17px;
+    font-weight: 500;
+    color: #3D3A3A;
+    background: #edeeee;
+}
+
+.nav-tabs .nav-link.active {
+    background: #FFF;
+    border-top-width: 3px;
+    border-color: #0275d8 #faf6fb #FFF;
+    color: #0275d8;
 }
 
 .news-body p {
@@ -307,7 +357,43 @@ nav {
 
 /*** News ***/
 
+/*** Counter **/
 
+.counter-sec {
+    background: rgb(16, 73, 121);
+    background: linear-gradient(90deg, rgba(16, 73, 121, 1) 0%, rgba(2, 117, 216, 1) 32%, rgba(86, 177, 255, 1) 100%);
+    padding: 2%;
+}
+
+.counter-sec .single_member_counter span {
+    font-size: 250%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.single_member_counter h4 {
+    color: #fff;
+    font-size: 24px;
+    font-size: 600;
+    margin-top: 28px;
+    position: relative;
+}
+
+.counter-sec .single_member_counter {
+    text-align: center;
+}
+
+.counter-sec .single_member_counter h4:after {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    right: 0;
+    margin: 0 auto;
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    content: "";
+}
 
 /*** Update Section ***/
 
@@ -315,27 +401,22 @@ nav {
     background-image: url("/Assets/Liquid-Cheese.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 10px;
-    margin-top: 2%;
-    padding-bottom: 3%;
+    padding: 9%;
+    border-radius: 7px;
 }
 
 .new {
-    width: 7%;
-    margin-top: 3%;
+    width: 9%;
 }
 
 .update-heading {
     font-weight: 600;
     font-size: 120%;
-    padding: 10px;
-    margin-top: 2%;
 }
 
 .update-subject {
     font-weight: 700;
     font-size: 140%;
-    padding: 5px;
 }
 
 /*** Update Section ***/
@@ -345,15 +426,18 @@ nav {
 /*** Dantai-travel Section ***/
 
 .dantai-travel-sec {
-    margin-top: 6%;
-    background-color: #ecf0f1;
+    margin-top: 4%;
     padding-top: 3%;
     padding-bottom: 3%;
+    opacity: 0;
+}
+
+.dantai-travel-sec.animated {
+    opacity: 1;
 }
 
 .dantai-travel-img {
     width: 95%;
-    opacity: 0;
 }
 
 .dantai-travel-img.animated {
@@ -373,12 +457,6 @@ nav {
 
 .dantai-travel-sec .content-col {
     margin-top: 3%;
-    opacity: 0;
-}
-
-.dantai-travel-sec .content-col.animated {
-    opacity: 1;
-    transition: opacity ease;
 }
 
 /*** Dantai-travel Section ***/
@@ -388,17 +466,17 @@ nav {
 /*** Multi-support Section ***/
 
 .multi-sec {
-    margin-top: 5%;
+    margin-top: 4%;
+    opacity: 0;
+}
+
+.multi-sec.animated {
+    opacity: 1;
 }
 
 .multi-img {
     width: 65%;
-    display: none;
     margin-left: 11%;
-}
-
-.multi-img.animated {
-    display: block;
 }
 
 .multi-sec .heading {
@@ -417,7 +495,7 @@ nav {
 }
 
 .careers-sec {
-    margin-top: 6%;
+    margin-top: 4%;
     opacity: 0;
 }
 
@@ -431,6 +509,8 @@ nav {
     margin-top: 8%;
     opacity: 1;
     transition: opacity ease;
+    background: #f5f6fa;
+    padding: 5%;
 }
 
 
@@ -440,9 +520,11 @@ nav {
 }
 
 .hiring {
-    border: transparent solid #3D3A3A;
-    border-radius: 15px;
-    box-shadow: 0px 3px 7px grey;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #FFF;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
+    padding: 3rem;
 }
 
 .hiring p {
@@ -489,7 +571,6 @@ nav {
     background: #0081B2;
     color: #fff;
     font-weight: 400;
-    margin-top: 5%;
 }
 
 .footer-sec hr {
@@ -579,3 +660,29 @@ iframe {
 }
 
 /*** Loaing screen **/
+
+/*** Go to top button **/
+
+#button {
+    font-size: 3.5em;
+    color: #3D3A3A;
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 5;
+}
+
+#button:hover {
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*** Go to top button **/

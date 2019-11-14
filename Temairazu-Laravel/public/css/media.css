@@ -1,29 +1,15 @@
 /*For non-pc devices */
-@media (max-width: 992px) {
+@media only screen and (max-width: 1023px) {
 
     /* Disable animations */
 
-    .animated {
-        display: unset;
+    .home-banner-area {
+        background: none;
     }
-
-    /* Disable animations */
 
     .dropdown-menu {
         border: none;
-        text-align: end;
     }
-
-    .dropdown:hover .dropdown-menu {
-        display: initial;
-    }
-
-    .dropdown-menu :hover {
-        display: initial;
-        background-color: #fff;
-        color: black;
-    }
-
 
     .landing-art {
         margin-top: 5%;
@@ -42,10 +28,6 @@
     }
 
     .dantai-travel-sec {
-        padding-top: 7%;
-    }
-
-    .news-col {
         margin-top: 7%;
     }
 
@@ -59,35 +41,22 @@
         padding: 0;
     }
 
-    .tokyo-img {
-        top: 0px;
-        left: 0px;
+    .counter .single_member_counter span {
+        line-height: 67px;
+        font-size: 40px;
     }
 
-    @-webkit-keyframes animateCloud {
-        0% {
-            margin-left: -10px;
-        }
-
-
-
-        50% {
-            margin-left: 10%;
-        }
-
-        100% {
-            margin-left: -10px;
-        }
+    .tab-content {
+        padding: 1.5rem;
     }
-
-    .x1 {
-        animation: animateCloud 8s linear infinite;
-    }
-
 }
 
 /* For small screens like iPhones */
 @media (max-width: 576px) {
+
+    .hero {
+        margin-top: 13%;
+    }
 
     .partners-heading {
         font-size: 50%;
@@ -114,11 +83,6 @@
 
     .hiring-img {
         width: 20%;
-    }
-
-    .card-image {
-        width: 80%;
-        margin: auto;
     }
 
     .dantai-button,
@@ -150,7 +114,7 @@
     }
 
     .new {
-        width: 12%;
+        width: 30%;
     }
 
     .partners-sec a {
@@ -160,6 +124,24 @@
     .google-maps {
         margin-left: 3%;
     }
+
+    .footer-sec .day {
+        font-size: 50%;
+    }
+
+    .main-phone-img {
+        width: 60%;
+        top: 10px;
+        left: 70px;
+        margin-bottom: 10px;
+    }
+
+    .nav-tabs .nav-item .nav-link,
+    .nav-tabs .nav-link:focus,
+    .nav-tabs .nav-link:hover {
+        padding: .3rem .3rem;
+        font-size: 15px;
+    }
 }
 
 /* for medium screens like iPads */
@@ -168,12 +150,30 @@
         margin-bottom: 7%;
     }
 
-    .card-image {
-        width: 65%;
+    .google-maps {
         margin: auto;
     }
 
-    .google-maps {
-        margin: auto;
+    .main-phone-img {
+        width: 50%;
+        top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+}
+
+/* Navigation options only for PC */
+@media (min-width: 1024px) {
+    .dropdown-menu {
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+    }
+
+    .dropdown-item {
+        font-weight: 500;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
     }
 }

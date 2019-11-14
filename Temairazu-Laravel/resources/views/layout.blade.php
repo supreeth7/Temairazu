@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <!-- SEO optimization -->
-    <meta name="description"
-        content="Temairazu is Japan's leading reservation site controller. Discover the wide range of premium services we offer.">
-    <meta name="keywords"
-        content="Temairazu, Site controller, Channel manager, channel manager, japan hotel reservation">
+    <meta name="description" content="Temairazu is Japan's leading reservation channel manager.">
+    <meta name="keywords" content="Temairazu, site controller, travel, channel manager, japan hotel reservation">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,26 +22,18 @@
     <meta name="msapplication-config" content="favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Bootstrap 4 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
     <!-- Google Montserrat font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
 
-    <!-- CSS links -->
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/media.css">
+    <!-- Ionic Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
     <!-- Weglot language support -->
     <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
@@ -54,14 +44,20 @@
     </script>
 </head>
 
-<body>
+<body class="home-banner-area">
 
     <!-- Navigation-start -->
-    <div class="container-fluid">
-        <header class="header">
-            @include('navigation')
-        </header>
-    </div>
+    <header class="header">
+        <div class="nav-menu fixed-top p-2">
+            <div class="row">
+                <div class="container-fluid col-md-12">
+
+                    @include('navigation')
+
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- Navigation-end -->
 
 
@@ -82,10 +78,12 @@
     </div>
     <!-- Loading screen end-->
 
-    <!-- JQuery and external js file -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./js/jquery.waypoints.min.js"></script>
-    <script src="./js/app.js"></script>
+    <!-- JQuery, Bootstrap and external js file -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.easy_number_animate.min.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151444263-1"></script>
