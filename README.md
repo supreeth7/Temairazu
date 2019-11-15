@@ -4,9 +4,9 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
 ## Development Information:-
  **Frameworks:** Laravel 6, Boostrap 4, JQuery\
  **Programming:** HTML5, CSS3, PHP 7\
- **Database:** MySQL 5.7 database in AWS RDS\
+ **Database:** MySQL database in AWS RDS\
  **PDF storage:** AWS S3 Bucket\
- **Icons:** All SVG's used are from https://icons8.com - downloaded from a premium licensed account.\
+ **Icons:** All icons used are from https://ionicons.com - free for commercial use too.\
  **Language support widget:** From https://weglot.com - through a premium account.\
  **Animations:** Animate.css (https://daneden.github.io/animate.css) \
  **Map:** By Google Maps.
@@ -21,5 +21,5 @@ http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
  4. The main controller can be found in '/Temairazu-Laravel/app/http/controllers/NewsController' folder.
  5. The database configuration can be found in '/Temairazu-Laravel/.env' file.
  6. The database screenshots can be found in '/Database Screenshot' folder.
- 7. Please see '/Temairazu-Laravel/routes/web.php' for page routes.
- 8. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk. 
+ 7. Please see '/Temairazu-Laravel/routes/web.php' for an overview of how page navigation is done.
+ 8. The website is temporarily hosted on Amazon Web Services, deployed through Elastic Bean Stalk.
