@@ -13,6 +13,9 @@ body {
 .home-banner-area {
     background: url(/Assets/home-banner-bg.jpg) no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     height: 700px;
 }
 
