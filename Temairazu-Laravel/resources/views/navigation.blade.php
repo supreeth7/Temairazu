@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-light">
 
     <a href="/" class="navbar-brand img-fluid"><img src="/Assets/tema_corp_logo_wide.svg" alt="logo"
             class="main-logo"></a>
@@ -47,7 +47,7 @@
                 <a href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                     class="nav-link active dropdown-toggle">ABOUT</a>
                 <div class="dropdown-menu">
-                    <a href="https://www.temairazu.com/info/profile" class="dropdown-item">Company Profile</a>
+                    <a href="#company-profile" class="dropdown-item">Company Profile</a>
                     <a href="https://www.temairazu.com/info/vision" class="dropdown-item">Corporate Philosophy</a>
                     <a href="https://www.temairazu.com/info/history" class="dropdown-item">History</a>
                 </div>

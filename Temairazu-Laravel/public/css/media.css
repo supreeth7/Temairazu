@@ -1,11 +1,6 @@
 /*For non-pc devices */
 @media only screen and (max-width: 1023px) {
 
-    /* Disable animations */
-
-    .home-banner-area {
-        background: none;
-    }
 
     .dropdown-menu {
         border: none;
@@ -54,8 +49,21 @@
 /* For small screens like iPhones */
 @media (max-width: 576px) {
 
+    .arrow-link {
+        font-size: 100%;
+    }
+
+    .arrow-link img {
+        width: 4%;
+    }
+
     .hero {
-        margin-top: 13%;
+        margin-top: 100px;
+    }
+
+    .services-sec {
+        margin-top: 80px;
+        padding-top: 50px;
     }
 
     .partners-heading {
@@ -70,19 +78,8 @@
         font-size: 180%;
     }
 
-    .card {
-        width: 300px;
-        margin: auto;
-        margin-bottom: 6%;
-    }
-
-
     .navbar-toggler {
         margin-top: -10%;
-    }
-
-    .hiring-img {
-        width: 20%;
     }
 
     .dantai-button,
@@ -129,10 +126,10 @@
         font-size: 50%;
     }
 
-    .main-phone-img {
+    .main-img {
         width: 60%;
         top: 10px;
-        left: 70px;
+        left: 65px;
         margin-bottom: 10px;
     }
 
@@ -142,23 +139,23 @@
         padding: .3rem .3rem;
         font-size: 15px;
     }
+
+    .services-sec p {
+        text-align: center;
+    }
 }
 
 /* for medium screens like iPads */
 @media (min-width: 768px) and (max-width: 992px) {
-    .card {
-        margin-bottom: 7%;
-    }
 
     .google-maps {
         margin: auto;
     }
 
-    .main-phone-img {
+    .main-img {
         width: 50%;
         top: 10px;
-        margin-left: auto;
-        margin-right: auto;
+        left: 160px;
         margin-bottom: 10px;
     }
 }
@@ -175,5 +172,16 @@
 
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+
+    .dropdown-menu a:hover {
+        background-color: #0275d8;
+        color: #fff;
+        transition: 0.1s ease-in;
+    }
+
+    .main-btns a {
+        font-weight: 600;
+        width: 32%;
     }
 }

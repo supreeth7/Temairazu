@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <!-- SEO optimization -->
-    <meta name="description" content="Temairazu is Japan's leading reservation channel manager.">
+    <meta name="description" content="Temairazu is Japan's leading hotel reservation channel manager.">
     <meta name="keywords" content="Temairazu, site controller, travel, channel manager, japan hotel reservation">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,7 @@
     </script>
 </head>
 
-<body class="home-banner-area">
+<body>
 
     <!-- Navigation-start -->
     <header class="header">

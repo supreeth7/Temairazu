@@ -5,15 +5,10 @@ $(document).ready(function () {
     /* Fixed navbar */
     function menuscroll() {
         var $navmenu = $('.nav-menu');
-        var $navbar = $('.navbar');
         if ($(window).scrollTop() > 50) {
             $navmenu.addClass('is-scrolling');
-            $navbar.addClass('navbar-light');
-            $navbar.removeClass('navbar-dark');
         } else {
             $navmenu.removeClass("is-scrolling");
-            $navbar.removeClass('navbar-light');
-            $navbar.addClass('navbar-dark');
         }
     }
     menuscroll();
@@ -118,7 +113,7 @@ $(document).ready(function () {
 
     //fade-animation
     $('.services-sec').waypoint(function (direction) {
-        $('.services-sec').addClass('animated fadeIn');
+        $('.item').addClass('animated fadeInUp');
     }, {
         offset: '50%'
     });
@@ -129,8 +124,14 @@ $(document).ready(function () {
         offset: '50%'
     });
 
-    $('.careers-sec').waypoint(function (direction) {
-        $('.careers-sec').addClass('animated fadeIn');
+    $('.careers-section').waypoint(function (direction) {
+        $('.careers-section').addClass('animated fadeIn');
+    }, {
+        offset: '50%'
+    });
+
+    $('.company-section').waypoint(function (direction) {
+        $('.company-section').addClass('animated fadeIn');
     }, {
         offset: '50%'
     });

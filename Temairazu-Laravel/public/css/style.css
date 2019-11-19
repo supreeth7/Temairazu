@@ -8,19 +8,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     color: #3D3A3A;
-}
-
-.home-banner-area {
-    background: url(/Assets/home-banner-bg.jpg) no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 700px;
+    background-color: #FFF;
 }
 
 h3 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .btn {
@@ -126,32 +118,32 @@ hr {
 /*** Landing Section ***/
 
 .hero {
-    padding-top: 11%;
+    padding-top: 13%;
 }
 
 .hero-heading {
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
 
 }
 
-.main-phone-img {
-    width: 80%;
+.main-img {
+    width: 100%;
     z-index: 1;
     position: relative;
-    top: -28px;
-    left: 26%;
+    left: 15%;
+    top: -40px;
 }
 
 .landing-art {
-    animation: fadeIn ease 3s;
+    vertical-align: middle;
+    animation: fadeIn ease 0.4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
 .main-btns a {
     font-weight: 600;
-    width: 32%;
 }
 
 .partners-sec {
@@ -214,72 +206,34 @@ hr {
 /*** Services Section ***/
 
 .services-sec {
+    background: rgb(16, 73, 121);
+    background: linear-gradient(90deg, rgba(16, 73, 121, 1) 0%, rgba(2, 117, 216, 1) 32%, rgba(86, 177, 255, 1) 100%);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    color: #FFF;
+    margin-top: 5%;
+}
+
+.item {
     opacity: 0;
-    margin-top: 7%;
 }
 
-.services-sec.animated {
+.item.animated {
     opacity: 1;
-    transition: opacity ease;
+    transition: all opacity ease;
 }
 
-.cards {
-    margin-top: 3%;
+.services-sec ion-icon {
+    font-size: 70px;
 }
 
-.card p {
-    font-weight: 500;
+.services-sec p {
     text-align: left;
-    font-size: 95%;
-}
-
-.card h5 {
-    font-weight: 600;
-    padding: 20px;
-    color: #3D3A3A;
-    text-align: center;
 }
 
 .card {
-    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
-    -webkit-transition: box-shadow .4s ease-out;
-    background-color: #fff;
-    border-radius: 7px;
-}
-
-.card:hover {
-    box-shadow: 1px 8px 20px grey;
-    -webkit-transition: box-shadow .4s ease-in;
-    cursor: pointer;
-}
-
-.last-card p {
-    margin-top: 4%;
-}
-
-.ico-circle {
-    height: 100px;
-    width: 100px;
-    font-size: 5.2rem;
-    border-radius: 50%;
-    line-height: 1.55;
-    margin: 0 auto;
-    text-align: center;
-    box-shadow: 0 0 0 10px #0078ff;
-    display: block;
-    transition: all 500ms ease;
-}
-
-.card .service-ico {
-    margin-bottom: 1rem;
-    color: #3D3A3A;
-}
-
-.card:hover .ico-circle {
-    transition: all 500ms ease;
-    color: #fff;
-    background-color: #0078ff;
-    box-shadow: 0 0 0 10px #cde1f8;
+    background: none;
+    border: none;
 }
 
 /*** Services Section ***/
@@ -289,23 +243,20 @@ hr {
 /*** News ***/
 
 .news-sec {
-    margin-top: 6%;
     opacity: 0;
-    background-color: #f5f6fa;
-    padding: 5%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .news-sec.animated {
     opacity: 1;
-    transition: opacity ease;
+    transition: all opacity ease;
 }
 
 .tab-content {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #FFF;
-    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
     padding: 3rem;
 }
 
@@ -449,13 +400,13 @@ hr {
 }
 
 .dantai-travel-sec .heading {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 155%;
     color: #3D3A3A;
 }
 
 .dantai-travel-sec .content {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .dantai-travel-sec .content-col {
@@ -483,14 +434,14 @@ hr {
 }
 
 .multi-sec .heading {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 155%;
     color: #3D3A3A;
 }
 
 
 .multi-sec .content {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .mutli-sec .content-col {
@@ -503,64 +454,94 @@ hr {
 
 /*** Careers Section ***/
 
-.careers-sec {
-    margin-top: 8%;
+.careers-section {
+    padding: 5em 0;
+    position: relative;
     opacity: 0;
-    background: #f5f6fa;
-    padding: 5%;
+    margin-top: 9%;
 }
 
-.careers-sec.animated {
+.careers-section .btn {
+    font-size: 14px;
+}
+
+.careers-section.animated {
     opacity: 1;
     transition: opacity ease;
 }
 
-
-.hiring-img {
-    width: 11%;
-    margin-top: 1%;
+.careers-link {
+    padding: 2%;
 }
 
-.hiring {
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    background-color: #FFF;
-    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.04);
-    padding-top: 3em;
-    padding-bottom: 3em;
+.careers-link img {
+    width: 9%;
 }
 
-.hiring p {
-    margin-top: 4%;
-    font-weight: 500;
+@media (max-width: 767.98px) {
+    .careers-section {
+        padding: 4em 0;
+    }
 }
 
-.careers-sec a {
-    font-size: 100%;
-    font-weight: 600;
+.browse-job {
+    background: #fff;
+    position: relative;
+    z-index: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
 }
 
-.careers-sec h3 {
-    padding: 0.5em;
+.browse-job .icon {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 150px;
+    line-height: 1;
+    z-index: -1;
+    color: #e9e8ff;
+    opacity: 70%;
 }
 
-.careers-sec .links {
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-.careers-sec .links a {
-    font-size: 95%;
-    padding: 15px;
-}
-
-.careers-sec .links img {
-    width: 8%;
+.img {
+    vertical-align: middle;
+    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /*** Careers Section ***/
+
+
+/*** Company Profile **/
+
+.company-section {
+    opacity: 0;
+    font-weight: 500;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.company-section.animated {
+    opacity: 1;
+    transition: opacity ease;
+}
+
+.company-section .head {
+    color: #FFF;
+    font-weight: 600;
+    background: #0081B2;
+}
+
+.designation {
+    font-weight: 600;
+}
+
+
+/*** Company Profile **/
 
 
 
