@@ -49,9 +49,9 @@
                         </ul>
                     </div>
                     <div class="text-center linked">
-                        <a href="https://www.temairazu.com/service/site" class="arrow-link">Linked Sites <img
+                        <a href="https://www.temairazu.com/service/site" class="arrow-link img-fluid">Linked Sites <img
                                 src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
-                        <a href="https://www.temairazu.com/service/pms" class="arrow-link">Linked PMS <img
+                        <a href="https://www.temairazu.com/service/pms" class="arrow-link img-fluid">Linked PMS <img
                                 src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
                     </div>
                 </div>

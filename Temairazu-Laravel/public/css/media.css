@@ -54,10 +54,6 @@
         font-size: 100%;
     }
 
-    .arrow-link img {
-        width: 4%;
-    }
-
     .hero {
         margin-top: 100px;
     }
@@ -144,8 +140,8 @@
         text-align: center;
     }
 
-    .arrow-link img {
-        width: 9%;
+    .careers-link img {
+        width: 8%;
     }
 
     #button {
