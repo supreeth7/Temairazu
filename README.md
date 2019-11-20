@@ -1,5 +1,5 @@
-# Temairazu
-http://temairazu-env.e6zvjfr3xu.ap-northeast-1.elasticbeanstalk.com
+# Temairazu IP
+http://temairazu.ap-northeast-1.elasticbeanstalk.com
 
 ## Development Information:-
  **Frameworks:** Laravel 6, Boostrap 4, JQuery\
