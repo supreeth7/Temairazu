@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 
     <a href="/" class="navbar-brand img-fluid"><img src="/Assets/tema_corp_logo_wide.svg" alt="logo"
-            class="main-logo"></a>
+            class="main-logo img-fluid"></a>
 
     <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"

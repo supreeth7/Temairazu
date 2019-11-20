@@ -131,7 +131,7 @@ hr {
     width: 100%;
     z-index: 1;
     position: relative;
-    left: 15%;
+    left: 40px;
     top: -40px;
 }
 
@@ -455,9 +455,9 @@ hr {
 /*** Careers Section ***/
 
 .careers-section {
+    background-image: url("/Assets/bg_1.jpg");
     padding: 5em 0;
     position: relative;
-    opacity: 0;
     margin-top: 9%;
 }
 
@@ -465,17 +465,27 @@ hr {
     font-size: 14px;
 }
 
-.careers-section.animated {
+
+.browse-job {
+    opacity: 0;
+}
+
+.browse-job.animated {
     opacity: 1;
-    transition: opacity ease;
+    transition: all opacity ease;
 }
 
 .careers-link {
-    padding: 2%;
+    padding: 1%;
 }
 
 .careers-link img {
-    width: 9%;
+    width: 8%;
+}
+
+.careers-row {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 767.98px) {
@@ -496,7 +506,7 @@ hr {
 
 .browse-job .icon {
     position: absolute;
-    top: 0;
+    top: 25px;
     left: 0px;
     font-size: 150px;
     line-height: 1;

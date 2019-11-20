@@ -18,7 +18,7 @@
             </div>
 
             <div class="col-lg-6 landing-art">
-                <img src="Assets/undraw-logo.svg" alt="" class="main-img">
+                <img src="Assets/undraw-logo.svg" alt="" class="main-img img-fluid">
             </div>
 
         </div>
@@ -67,7 +67,7 @@
     <!-- Section heading -->
     <h2 class="font-weight-bold item">Why Temairazu?</h2>
     <!-- Section description -->
-    <p class="lead mx-auto mb-5 text-center item" style="font-size: 15px">"Being a world-class reservation
+    <p class="lead mx-auto mb-5 p-2 text-center item" style="font-size: 15px">"Being a world-class reservation
         site
         controller we strive
         to deliver premium features"</p>
@@ -365,14 +365,14 @@
 
 
 <!-- Careers-start -->
-<section class="careers-section img" style="background-image: url(Assets/bg_1.jpg); background-position: center;"
-    id="careers">
+<section class="careers-section img img-fluid" id="careers">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="browse-job p-5 shadow bg-white rounded">
                     <ion-icon name="ios-search" class="icon"></ion-icon>
                     <div class="row">
+                        <h3 class="underline text-center mx-auto">We're hiring</h3>
                         <div class="col-md-12 mx-auto">
                             <p>Being a leading site controller, Temairazu broadens the options
                                 for travelers and creates a virtuous circle in the travel industry. What we are
@@ -385,29 +385,29 @@
                         </div>
                         <div class="col-md-12 mx-auto text-center">
                             <a href="https://www.temairazu.com/recruit/staff" class="arrow-link">Working
-                                with Temairazu <img src="Assets/right-arrow-svg.svg" style="width: 4%"></a>
+                                with Temairazu <img src="Assets/right-arrow-svg.svg" style="width: 20px"></a>
                         </div>
 
-                        <div class="row d-flex justify-content-center mt-3">
+                        <div class="row careers-row mt-3">
                             <div class="careers-link">
-                                <a href="https://www.temairazu.com/recruit/top" class="col-md-3 arrow-link">Employment
+                                <a href="https://www.temairazu.com/recruit/top" class="col-md-6 arrow-link">Employment
                                     Information
                                     <img src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
                             </div>
                             <div class="careers-link">
                                 <a href="https://www.temairazu.com/recruit/c_message"
-                                    class="col-md-3 arrow-link">Representative
+                                    class="col-md-6 arrow-link">Representative
                                     Message
                                     <img src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
                             </div>
                             <div class="careers-link">
-                                <a href="https://www.temairazu.com/recruit/g_guidelines" class="col-md-3 arrow-link">New
+                                <a href="https://www.temairazu.com/recruit/g_guidelines" class="col-md-6 arrow-link">New
                                     graduate recruitment
                                     <img src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
                             </div>
                             <div class="careers-link">
                                 <a href="https://www.temairazu.com/recruit/guidelines"
-                                    class="col-md-3 arrow-link">Mid-career
+                                    class="col-md-6 arrow-link">Mid-career
                                     recruitment
                                     <img src="./Assets/right-arrow-svg.svg" alt="arrow"></a>
                             </div>

@@ -74,7 +74,7 @@
 
     <!-- Loading screen start-->
     <div class="loader-wrapper">
-        <div class="spinner-border text-primary"></div>
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;"></div>
     </div>
     <!-- Loading screen end-->
 
