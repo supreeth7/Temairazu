@@ -1,4 +1,4 @@
-# Temairazu IP
+# Temairazu
 http://temairazu.ap-northeast-1.elasticbeanstalk.com
 
 ## Development Information:-
