@@ -1,4 +1,4 @@
-# Temairazu IP
+# Temairazu
 http://temairazu.ap-northeast-1.elasticbeanstalk.com
 
 ## Development Information:-
@@ -12,7 +12,7 @@ http://temairazu.ap-northeast-1.elasticbeanstalk.com
  **Map:** By Google Maps.
  
  ## Design:-
- The initial wireframing, design was made in AdobeXD and can be found in '/Protoype Design' folder.
+ The initial wireframing, web design was made in AdobeXD and can be found in '/Protoype Design' folder.
  
  ### Note:-
  1. The website is SEO optimized, W3C validated with Google Analytics support.
