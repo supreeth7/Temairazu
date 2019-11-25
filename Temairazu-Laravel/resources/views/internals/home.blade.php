@@ -278,45 +278,12 @@
 </section>
 <!-- News-end -->
 
-<!-- counter start -->
-<section class="counter-sec">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_member_counter">
-                    <span class="counter-member-a">0</span>
-                    <h4>HOTELS MANAGED</h4>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_member_counter">
-                    <span class="counter-member-b">0</span>
-                    <h4>CITIES</h4>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_member_counter">
-                    <span class="counter-member-c">0</span><span>M</span>
-                    <h4>BOOKINGS</h4>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="single_member_counter">
-                    <span>JP¥ </span><span class="counter-member-d">0</span><span>M</span>
-                    <h4>REVENUE</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- member_counter counter end -->
-
 <!-- Dantai-section-start -->
 <section class="dantai-travel-sec">
     <div class="container mb-2">
         <h3 class="text-center underline">Temairazu Dantai Travel</h3>
         <div class="row align-items-center">
-            <div class="col-lg-6 content-col">
+            <div class="col-lg-5 content-col">
                 <p class="heading">Centralized management of group accommodation reservations</p>
                 <hr>
                 <p class="content">Group accommodation reservations can be managed with Temairazu.
@@ -328,8 +295,8 @@
                         Dantai Travel</a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img src="./Assets/dantai-travel.svg" alt="dantai-travel" class="dantai-travel-img">
+            <div class="col-lg-7">
+                <img src="./Assets/dantai-undraw.svg" alt="dantai-travel" class="dantai-travel-img">
             </div>
         </div>
     </div>
@@ -343,7 +310,7 @@
         <h3 class="text-center underline">Multi-Platform Support</h3>
         <div class="row align-items-center wp-multi pt-5">
             <div class="col-lg-6">
-                <img src="./Assets/Multi-platform.svg" alt="multi" class="multi-img">
+                <img src="./Assets/multi-undraw.svg" alt="multi" class="multi-img">
             </div>
             <div class="col-lg-6 content-col">
                 <p class="heading">Can be managed anywhere if connected to the Internet</p>
@@ -497,7 +464,7 @@
 
 <!-- Go to top button -->
 <span id="button">
-    <ion-icon name="ios-arrow-dropup"></ion-icon>
+    <ion-icon name="ios-arrow-dropup-circle" style="color: #0275d8"></ion-icon>
 </span>
 
 @endsection

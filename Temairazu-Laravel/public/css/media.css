@@ -14,13 +14,13 @@
     .multi-img {
         display: flex;
         margin: auto;
-        width: 40%;
+        width: 75%;
+        margin-bottom: 3%;
     }
 
     .dantai-travel-img {
         display: flex;
         margin: auto;
-        width: 80%;
     }
 
     .dantai-travel-sec {

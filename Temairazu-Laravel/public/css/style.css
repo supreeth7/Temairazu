@@ -380,9 +380,8 @@ hr {
 /*** Dantai-travel Section ***/
 
 .dantai-travel-sec {
-    margin-top: 4%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    margin-top: 5%;
+    padding-bottom: 1%;
     opacity: 0;
 }
 
@@ -391,7 +390,7 @@ hr {
 }
 
 .dantai-travel-img {
-    width: 95%;
+    width: 100%;
 }
 
 .dantai-travel-img.animated {
@@ -420,7 +419,7 @@ hr {
 /*** Multi-support Section ***/
 
 .multi-sec {
-    margin-top: 4%;
+    margin-top: 8%;
     opacity: 0;
 }
 
@@ -429,8 +428,7 @@ hr {
 }
 
 .multi-img {
-    width: 65%;
-    margin-left: 11%;
+    width: 85%;
 }
 
 .multi-sec .heading {
@@ -455,7 +453,7 @@ hr {
 /*** Careers Section ***/
 
 .careers-section {
-    background-image: url("/Assets/bg_1.jpg");
+    background-image: url("/Assets/bg_3.jpg");
     padding: 5em 0;
     position: relative;
     margin-top: 9%;
@@ -659,7 +657,6 @@ iframe {
 
 #button {
     font-size: 3.5em;
-    color: #3D3A3A;
     position: fixed;
     bottom: 40px;
     right: 60px;
