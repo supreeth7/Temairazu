@@ -123,8 +123,13 @@ hr {
 
 .hero-heading {
     font-weight: 700;
-    text-align: center;
+    text-align: left;
+}
 
+.hero p {
+    font-weight: 500;
+    text-align: left;
+    font-size: 100%;
 }
 
 .main-img {
@@ -243,15 +248,10 @@ hr {
 /*** News ***/
 
 .news-sec {
-    opacity: 0;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.news-sec.animated {
-    opacity: 1;
-    transition: all opacity ease;
-}
 
 .tab-content {
     border-bottom-right-radius: 3px;
@@ -311,43 +311,6 @@ hr {
 
 /*** News ***/
 
-/*** Counter **/
-
-.counter-sec {
-    background: rgb(16, 73, 121);
-    background: linear-gradient(90deg, rgba(16, 73, 121, 1) 0%, rgba(2, 117, 216, 1) 32%, rgba(86, 177, 255, 1) 100%);
-    padding: 2%;
-}
-
-.counter-sec .single_member_counter span {
-    font-size: 250%;
-    font-weight: 700;
-    color: #fff;
-}
-
-.single_member_counter h4 {
-    color: #fff;
-    font-size: 24px;
-    font-size: 600;
-    margin-top: 28px;
-    position: relative;
-}
-
-.counter-sec .single_member_counter {
-    text-align: center;
-}
-
-.counter-sec .single_member_counter h4:after {
-    position: absolute;
-    left: 0;
-    top: -20px;
-    right: 0;
-    margin: 0 auto;
-    width: 60px;
-    height: 2px;
-    background-color: #fff;
-    content: "";
-}
 
 /*** Update Section ***/
 
@@ -382,20 +345,11 @@ hr {
 .dantai-travel-sec {
     margin-top: 5%;
     padding-bottom: 1%;
-    opacity: 0;
 }
 
-.dantai-travel-sec.animated {
-    opacity: 1;
-}
 
 .dantai-travel-img {
     width: 100%;
-}
-
-.dantai-travel-img.animated {
-    opacity: 1;
-    transition: opacity ease;
 }
 
 .dantai-travel-sec .heading {
@@ -420,11 +374,6 @@ hr {
 
 .multi-sec {
     margin-top: 8%;
-    opacity: 0;
-}
-
-.multi-sec.animated {
-    opacity: 1;
 }
 
 .multi-img {
@@ -461,16 +410,6 @@ hr {
 
 .careers-section .btn {
     font-size: 14px;
-}
-
-
-.browse-job {
-    opacity: 0;
-}
-
-.browse-job.animated {
-    opacity: 1;
-    transition: all opacity ease;
 }
 
 .careers-link {
@@ -527,15 +466,9 @@ hr {
 /*** Company Profile **/
 
 .company-section {
-    opacity: 0;
     font-weight: 500;
     margin-top: 7%;
     margin-bottom: 10%;
-}
-
-.company-section.animated {
-    opacity: 1;
-    transition: opacity ease;
 }
 
 .company-section .head {

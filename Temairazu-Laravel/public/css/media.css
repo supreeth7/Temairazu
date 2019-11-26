@@ -1,6 +1,17 @@
 /*For non-pc devices */
 @media only screen and (max-width: 1023px) {
 
+    .hero-heading {
+        text-align: center;
+    }
+
+    .hero p {
+        text-align: center;
+    }
+
+    .main-btns {
+        justify-content: center;
+    }
 
     .dropdown-menu {
         border: none;

@@ -74,75 +74,12 @@ $(document).ready(function () {
         });
     /* smooth scrolling */
 
-
-    /* Counter */
-    $('.counter-sec').waypoint(function (direction) {
-        $('.counter-member-a').easy_number_animate({
-            start_value: 0,
-            end_value: 1024,
-            duration: 1500
-        });
-        $('.counter-member-b').easy_number_animate({
-            start_value: 0,
-            end_value: 160,
-            duration: 1500
-        });
-        $('.counter-member-c').easy_number_animate({
-            start_value: 0,
-            end_value: 93,
-            duration: 1500
-        });
-        $('.counter-member-d').easy_number_animate({
-            start_value: 0,
-            end_value: 771,
-            duration: 1500
-        });
-        this.destroy();
-    }, {
-        offset: '50%',
-    });
-
-
-
-
-    //slide-animation
-    $('.multi-sec').waypoint(function (direction) {
-        $('.multi-sec').addClass('animated fadeInUp');
-    }, {
-        offset: '100%'
-    });
-
-    $('.dantai-travel-sec').waypoint(function (direction) {
-        $('.dantai-travel-sec').addClass('animated fadeInUp');
-    }, {
-        offset: '100%'
-    });
-
     //fade-animation
-    $('.services-sec').waypoint(function (direction) {
+    $('.wp-1').waypoint(function (direction) {
         $('.item').addClass('animated fadeInUp');
     }, {
         offset: '100%'
     });
-
-    $('.news-sec').waypoint(function (direction) {
-        $('.news-sec').addClass('animated fadeIn');
-    }, {
-        offset: '100%'
-    });
-
-    $('.careers-section').waypoint(function (direction) {
-        $('.browse-job').addClass('animated fadeIn');
-    }, {
-        offset: '100%'
-    });
-
-    $('.company-section').waypoint(function (direction) {
-        $('.company-section').addClass('animated fadeIn');
-    }, {
-        offset: '100%'
-    });
-
 
     //Go to top button
     $(window).scroll(function () {

@@ -8,8 +8,9 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                <h1 class="hero-heading">Easy reservation management with TEMAIRAZU<br>The site controller with the largest number of collaborations in the industry</h1>
-                <div class="main-btns d-flex justify-content-center">
+                <h2 class="hero-heading">Easy reservation management with TEMAIRAZU</h2>
+                <p class="text-muted">The site controller with the largest number of industry collaborations</p>
+                <div class="main-btns d-flex">
                     <a class="btn btn-primary btn mt-4 mr-3"
                         href="https://www.temairazu.com/contact/request">Document</a>
                     <a class="btn btn-outline-primary btn mt-4 ml-3"
@@ -78,7 +79,7 @@
 
             <div class="col-12 col-sm-6 col-lg-3 d-flex item" style="animation-delay: 0.2s;">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body wp-1">
                         <div class="card-image text-center">
                             <ion-icon name="ios-radio"></ion-icon>
                         </div>
