@@ -8,7 +8,7 @@
         <div class="row align-items-center">
 
             <div class="col-lg-6">
-                <h1 class="hero-heading">The industry's leading<br>channel manager</h1>
+                <h1 class="hero-heading">Easy reservation management with TEMAIRAZU<br>The site controller with the largest number of collaborations in the industry</h1>
                 <div class="main-btns d-flex justify-content-center">
                     <a class="btn btn-primary btn mt-4 mr-3"
                         href="https://www.temairazu.com/contact/request">Document</a>
