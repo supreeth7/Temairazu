@@ -5,26 +5,20 @@
 
 html,
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     font-size: 15px;
-    color: #3D3A3A;
-    background-color: #FFF;
-}
-
-h3 {
-    font-weight: 600;
 }
 
 .btn {
     font-weight: 500;
-    border-radius: 5px;
 }
 
 .arrow-link {
     padding-left: 1%;
     padding-right: 1%;
-    font-weight: 500;
-    font-size: 93%;
+    font-weight: 400;
+    font-size: 95%;
 }
 
 .arrow-link:hover,
@@ -53,8 +47,17 @@ h3 {
     margin-top: 1%;
 }
 
-hr {
-    border: 1.2px solid #0275d8;
+.hrs {
+    border: 0.6px solid #0275d8;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 155%;
+}
+
+.content {
+    font-weight: 300;
 }
 
 /*** Global code ***/
@@ -62,30 +65,8 @@ hr {
 
 
 /*** Navigation Bar***/
-
-.main-logo {
+.navbar-brand img {
     width: 65%;
-}
-
-.navbar {
-    font-weight: 500;
-}
-
-.nav-menu {
-    padding: 1rem 0;
-    transition: all 0.3s ease;
-}
-
-.nav-menu.is-scrolling,
-.nav-menu.menu-is-open {
-    background-color: #fff;
-    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
-}
-
-.nav-menu.is-scrolling {
-    padding: 0;
 }
 
 .navbar-nav .nav-link {
@@ -101,9 +82,6 @@ hr {
 }
 
 @media (max-width:991px) {
-    .navbar-nav.is-scrolling {
-        padding-bottom: 1rem;
-    }
 
     .navbar-nav .nav-item,
     .dropdown-item {
@@ -117,46 +95,37 @@ hr {
 
 /*** Landing Section ***/
 
-.hero {
-    padding-top: 13%;
-}
-
-.hero-heading {
-    font-weight: 700;
-    text-align: left;
-}
-
-.hero p {
-    font-weight: 500;
-    text-align: left;
-    font-size: 100%;
-}
-
-.main-img {
-    width: 100%;
-    z-index: 1;
+.overlay {
     position: relative;
-    left: 40px;
-    top: -40px;
 }
 
-.landing-art {
-    vertical-align: middle;
-    animation: fadeIn ease 0.4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+.overlay:before {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
 }
 
-.main-btns a {
-    font-weight: 600;
+.black:before {
+    background-color: rgba(0, 0, 0, 0.486);
 }
+
+/*** Landing Section End***/
+
+
+
+/*** Partners **/
 
 .partners-sec {
-    margin-top: 3%;
+    padding-top: 2%;
 }
 
 .partners-heading p {
-    font-weight: 600;
+    font-weight: 500;
     opacity: 0.9;
     margin-bottom: 0.5%;
     font-size: 88%;
@@ -204,41 +173,42 @@ hr {
     margin-top: -1%;
 }
 
-/*** Landing Section ***/
+/*** Partners End**/
 
 
 
 /*** Services Section ***/
 
 .services-sec {
-    background: rgb(16, 73, 121);
-    background: linear-gradient(90deg, rgba(16, 73, 121, 1) 0%, rgba(2, 117, 216, 1) 32%, rgba(86, 177, 255, 1) 100%);
-    padding-top: 4%;
-    padding-bottom: 4%;
-    color: #FFF;
     margin-top: 5%;
 }
 
-.item {
-    opacity: 0;
+.box.box {
+    padding: 3rem 2rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
-.item.animated {
-    opacity: 1;
-    transition: all opacity ease;
+.box:hover {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.services-sec ion-icon {
-    font-size: 70px;
+.box .icon {
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
-.services-sec p {
-    text-align: left;
+.feature h3 {
+    font-weight: 400;
 }
 
-.card {
-    background: none;
-    border: none;
+.feature p {
+    font-size: 105%;
+}
+
+.feature i {
+    font-size: 50px;
 }
 
 /*** Services Section ***/
@@ -248,65 +218,49 @@ hr {
 /*** News ***/
 
 .news-sec {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: #e9e8ff;
 }
 
 
 .tab-content {
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-    background-color: #FFF;
-    padding: 3rem;
+    padding: 0 1.5rem;
 }
 
-.nav-tabs {
-    border-bottom: 0;
-}
-
-.nav-tabs .nav-item .nav-link,
-.nav-tabs .nav-link:focus,
-.nav-tabs .nav-link:hover {
-    padding: 1rem 1rem;
-    border-color: #faf6fb #faf6fb #FFF;
-    font-size: 17px;
-    font-weight: 500;
-    color: #3D3A3A;
-    background: #edeeee;
-}
-
-.nav-tabs .nav-link.active {
-    background: #FFF;
-    border-top-width: 3px;
-    border-color: #0275d8 #faf6fb #FFF;
-    color: #0275d8;
+.news-headline {
+    text-align: left;
 }
 
 .news-body p {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .news-body {
-    padding-right: 2%;
-    padding-top: 1%;
+    margin-top: 10px;
 }
 
 .news-body img {
     width: 50%;
 }
 
-
 .news-headline:link,
 .news-headline:visited {
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 400;
     color: #3D3A3A;
+    font-size: 16px;
 }
 
+.news-headline:hover,
+.news-headline:active {
+    text-decoration: underline;
+}
 
 .news-cols p {
     padding-right: 5px;
-    font-size: 90%;
+    font-size: 16px;
 }
 
 /*** News ***/
@@ -320,6 +274,7 @@ hr {
     background-size: cover;
     padding: 9%;
     border-radius: 7px;
+    color: #3D3A3A;
 }
 
 .new {
@@ -327,13 +282,13 @@ hr {
 }
 
 .update-heading {
-    font-weight: 600;
-    font-size: 120%;
+    font-weight: 700;
+    font-size: 230%;
 }
 
 .update-subject {
-    font-weight: 700;
-    font-size: 140%;
+    font-weight: 400;
+    font-size: 170%;
 }
 
 /*** Update Section ***/
@@ -352,16 +307,6 @@ hr {
     width: 100%;
 }
 
-.dantai-travel-sec .heading {
-    font-weight: 500;
-    font-size: 155%;
-    color: #3D3A3A;
-}
-
-.dantai-travel-sec .content {
-    font-weight: 400;
-}
-
 .dantai-travel-sec .content-col {
     margin-top: 3%;
 }
@@ -378,17 +323,6 @@ hr {
 
 .multi-img {
     width: 85%;
-}
-
-.multi-sec .heading {
-    font-weight: 500;
-    font-size: 155%;
-    color: #3D3A3A;
-}
-
-
-.multi-sec .content {
-    font-weight: 400;
 }
 
 .mutli-sec .content-col {
@@ -414,6 +348,7 @@ hr {
 
 .careers-link {
     padding: 1%;
+    font-weight: 400;
 }
 
 .careers-link img {
@@ -441,15 +376,15 @@ hr {
     border-radius: 5px;
 }
 
-.browse-job .icon {
+.browse-job i {
     position: absolute;
     top: 25px;
-    left: 0px;
+    left: 20px;
     font-size: 150px;
     line-height: 1;
     z-index: -1;
-    color: #e9e8ff;
-    opacity: 70%;
+    color: #e1e1e4;
+    opacity: 0.5;
 }
 
 .img {
@@ -466,19 +401,19 @@ hr {
 /*** Company Profile **/
 
 .company-section {
-    font-weight: 500;
+    font-weight: 300;
     margin-top: 7%;
     margin-bottom: 10%;
 }
 
 .company-section .head {
     color: #FFF;
-    font-weight: 600;
+    font-weight: 400;
     background: #0081B2;
 }
 
 .designation {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
@@ -495,7 +430,7 @@ hr {
 .footer-sec {
     background: #0081B2;
     color: #fff;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .footer-sec hr {
@@ -530,9 +465,9 @@ hr {
     text-align: left;
 }
 
-h6 {
-    font-weight: 600;
-    font-size: 125%;
+.footer h6 {
+    font-weight: 500;
+    font-size: 103%;
 }
 
 .footer-links a {
@@ -545,6 +480,7 @@ h6 {
 
 .footer-links a:hover {
     color: #fff;
+    text-decoration: underline;
 }
 
 .footer-links .connect li {
@@ -560,7 +496,7 @@ iframe {
 }
 
 .copyright {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 80%;
 }
 
@@ -589,7 +525,6 @@ iframe {
 /*** Go to top button **/
 
 #button {
-    font-size: 3.5em;
     position: fixed;
     bottom: 40px;
     right: 60px;
@@ -609,4 +544,8 @@ iframe {
     visibility: visible;
 }
 
-/*** Go to top button **/
+#button i {
+    font-size: 60px;
+}
+
+/*** Go to top button ***/

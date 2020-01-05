@@ -1,25 +1,8 @@
 /*For non-pc devices */
 @media only screen and (max-width: 1023px) {
 
-    .hero-heading {
-        text-align: center;
-    }
-
-    .hero p {
-        text-align: center;
-    }
-
-    .main-btns {
-        justify-content: center;
-    }
-
     .dropdown-menu {
         border: none;
-    }
-
-    .landing-art {
-        display: block;
-        margin: auto;
     }
 
     .multi-img {
@@ -52,42 +35,16 @@
         line-height: 67px;
         font-size: 40px;
     }
-
-    .tab-content {
-        padding: 1.5rem;
-    }
 }
 
 /* For small screens like iPhones */
 @media (max-width: 576px) {
-
-    .arrow-link {
-        font-size: 100%;
-    }
-
     .hero {
         margin-top: 100px;
     }
 
-    .services-sec {
-        margin-top: 80px;
-        padding-top: 50px;
-    }
-
     .partners-heading {
         font-size: 50%;
-    }
-
-    .main-logo {
-        width: 50%;
-    }
-
-    .hero-heading {
-        font-size: 180%;
-    }
-
-    .navbar-toggler {
-        margin-top: -10%;
     }
 
     .dantai-button,
@@ -99,10 +56,6 @@
     .dantai-travel-sec .heading,
     .multi-sec .heading {
         font-size: 120%;
-    }
-
-    h3 {
-        font-size: 140%;
     }
 
     .phone-img {
@@ -122,29 +75,8 @@
         width: 30%;
     }
 
-    .partners-sec a {
-        font-size: 60%;
-    }
-
-    .google-maps {
-        margin-left: 3%;
-    }
-
     .footer-sec .day {
         font-size: 50%;
-    }
-
-    .landing-art {
-        right: 35px;
-        margin-bottom: 10px;
-        margin-top: 25%;
-    }
-
-    .nav-tabs .nav-item .nav-link,
-    .nav-tabs .nav-link:focus,
-    .nav-tabs .nav-link:hover {
-        padding: .3rem .3rem;
-        font-size: 15px;
     }
 
     .services-sec p {
@@ -165,38 +97,5 @@
 
     .google-maps {
         margin: auto;
-    }
-
-    .main-img {
-        width: 50%;
-        top: 10px;
-        left: 160px;
-        margin-bottom: 10px;
-    }
-}
-
-/* Navigation options only for PC */
-@media (min-width: 1024px) {
-    .dropdown-menu {
-        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
-    }
-
-    .dropdown-item {
-        font-weight: 500;
-    }
-
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-
-    .dropdown-menu a:hover {
-        background-color: #0275d8;
-        color: #fff;
-        transition: 0.1s ease-in;
-    }
-
-    .main-btns a {
-        font-weight: 600;
-        width: 32%;
     }
 }

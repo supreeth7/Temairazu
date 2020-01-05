@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
@@ -23,40 +23,31 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Google Montserrat font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-
-    <!-- Ionic Icons -->
-    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="css/material-kit.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/media.css">
 
     <!-- Weglot language support -->
     <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
     <script>
         Weglot.initialize({
-            api_key: 'wg_c1f6e249f4478d125b12045774c4a7d20'
-        });
+                api_key: 'wg_c1f6e249f4478d125b12045774c4a7d20'
+            });
     </script>
 </head>
 
-<body>
+<body class="landing-page sidebar-collapse">
 
     <!-- Navigation-start -->
     <header class="header">
-        <div class="nav-menu fixed-top p-2">
-            <div class="row">
-                <div class="container-fluid col-md-12">
 
-                    @include('navigation')
+        @include('navigation')
 
-                </div>
-            </div>
-        </div>
     </header>
     <!-- Navigation-end -->
 
@@ -79,20 +70,27 @@
     <!-- Loading screen end-->
 
     <!-- JQuery, Bootstrap and external js file -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/popper.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="js/plugins/moment.min.js"></script>
+    <script src="js/material-kit.js" type="text/javascript"></script>
     <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.easy_number_animate.min.js"></script>
     <script src="js/app.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151444263-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
 
-      gtag('config', 'UA-151444263-1');
+            gtag('config', 'UA-151444263-1');
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 </body>
