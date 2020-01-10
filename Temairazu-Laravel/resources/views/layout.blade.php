@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <!-- SEO optimization -->
     <meta name="description" content="Temairazu is Japan's leading hotel reservation channel manager.">
-    <meta name="keywords" content="Temairazu, site controller, travel, channel manager, japan hotel reservation">
+    <meta name="keywords"
+        content="Temairazu, site controller, travel, channel manager, japan hotel, hotel reservation, hotel booking, tokyo hotel">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
