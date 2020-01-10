@@ -3,8 +3,7 @@
 @section('content')
 
 <section class="hero">
-    <div class="page-header header-filter overlay black" data-parallax="true"
-        style="background-image: url('Assets/bg-d.jpg')">
+    <div class="page-header overlay black" data-parallax="true" style="background-image: url('Assets/b.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mt-5">
@@ -321,7 +320,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="browse-job p-4 shadow bg-white rounded">
+                    <div class="browse-job p-4 bg-white rounded shadow-lg">
                         <h2 class="underline title text-center mx-auto">We're hiring</h2>
                         <i class="material-icons">search</i>
                         <div class="row">
