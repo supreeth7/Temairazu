@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\DB;
 
-use Illuminate\Support\Facades\Response;
-
 class NewsController extends Controller
 {
     public function showNews()
