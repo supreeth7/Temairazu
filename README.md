@@ -6,7 +6,7 @@ http://temairazu.ap-northeast-1.elasticbeanstalk.com
  **Programming:** HTML5, CSS3, PHP 7\
  **Database:** MySQL database in AWS RDS\
  **PDF storage:** AWS S3 Bucket\
- **Icons:** All icons used are from https://ionicons.com - free for commercial use too.\
+ **Icons:** All icons used are from google material icons - free for commercial use.\
  **Language support widget:** From https://weglot.com - through a premium account.\
  **Animations:** Animate.css (https://daneden.github.io/animate.css) \
  **Map:** By Google Maps.
