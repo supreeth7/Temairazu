@@ -86,7 +86,7 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
-    });
+});
 
 //loading-screen
 $(window).on("load", function () {
