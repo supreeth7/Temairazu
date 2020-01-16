@@ -52,12 +52,16 @@ body {
 }
 
 .heading {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 155%;
 }
 
 .content {
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.btn-primary:hover {
+    background-color: #e74c3c !important;
 }
 
 /*** Global code ***/
@@ -348,7 +352,6 @@ body {
 
 .careers-link {
     padding: 1%;
-    font-weight: 400;
 }
 
 .careers-link img {
@@ -452,7 +455,7 @@ body {
 }
 
 .phone {
-    margin-top: 4%;
+    margin-top: 35px;
 }
 
 .day {

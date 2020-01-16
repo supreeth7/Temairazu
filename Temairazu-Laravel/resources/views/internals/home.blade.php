@@ -193,7 +193,7 @@
                             </div>
                             @endforeach
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-outline-primary" href="https://www.temairazu.com/press">PR
+                                <a class="btn btn-primary" href="https://www.temairazu.com/press">PR
                                     News List</a>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                             </div>
                             @endforeach
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-outline-primary" href="https://www.temairazu.com/ir/news">IR
+                                <a class="btn btn-primary" href="https://www.temairazu.com/ir/news">IR
                                     News
                                     List</a>
                             </div>
@@ -271,7 +271,7 @@
                         together, and travel reservations done by phone, online and e-mail
                         are freed from the complexity of managing paper ledgers and spreadsheets.</p>
                     <div class="dantai-button">
-                        <a class="btn btn-outline-primary" href="https://www.temairazu.com/service/dantai_tr">Temairazu
+                        <a class="btn btn-primary" href="https://www.temairazu.com/service/dantai_tr">Temairazu
                             Dantai Travel</a>
                     </div>
                 </div>
@@ -305,7 +305,7 @@
                         such as the front
                         desk of the accommodation facility or the office of the group headquarters.</p>
                     <div class="multi-button">
-                        <a class="btn btn-outline-primary" href="https://www.temairazu.com/service/about">More
+                        <a class="btn btn-primary" href="https://www.temairazu.com/service/about">More
                             details</a>
                     </div>
                 </div>
@@ -325,7 +325,7 @@
                         <i class="material-icons">search</i>
                         <div class="row">
                             <div class="col-md-12 mx-auto">
-                                <p>Being a leading site controller, Temairazu broadens the options
+                                <p class="content">Being a leading site controller, Temairazu broadens the options
                                     for travelers and creates a virtuous circle in the travel industry. What we
                                     are
                                     doing is “supporting the travel industry”. Why don't you use your experience
