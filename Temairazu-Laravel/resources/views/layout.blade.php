@@ -29,7 +29,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link href="css/material-kit.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="css/media.css">
 
     <!-- Weglot language support -->
@@ -56,6 +56,14 @@
     @yield('content')
     <!-- Main-Content-end -->
 
+    <!-- Loading screen start-->
+    <div class="loader-wrapper">
+        <span class="loader">
+            <span class="loader-inner"></span>
+        </span>
+    </div>
+    <!-- Loading screen end-->
+
 
     <!-- Footer-start -->
     <footer>
@@ -63,17 +71,10 @@
     </footer>
     <!-- Footer-end -->
 
-    <!-- Loading screen start-->
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
-    <!-- Loading screen end-->
-
     <!-- JQuery, Bootstrap and external js file -->
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/popper.min.js" type="text/javascript"></script>
     <script src="js/bootstrap-material-design.min.js" type="text/javascript"></script>
-    <script src="js/plugins/moment.min.js"></script>
     <script src="js/material-kit.js" type="text/javascript"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/app.js"></script>
@@ -92,7 +93,6 @@
     <script>
         AOS.init();
     </script>
-
 </body>
 
 </html>

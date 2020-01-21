@@ -45,7 +45,7 @@
                                 <li><img src="./Assets/expedia-vector-logo.svg" alt="exp" class="partners-img">
                                 </li>
                                 <li><img src="./Assets/agoda-vector-logo.svg" alt="tpad" class="partners-img"></li>
-                                <li><img src="./Assets/tripadvisor.svg" alt="exp" class="partners-img">
+                                <li><img src="./Assets/tripadvisor.svg" alt="exp" class="partners-img"></li>
                             </ul>
                         </div>
                         <div class="text-center linked">
@@ -81,7 +81,6 @@
                         <h3>Diversify Acquisition Channels</h3>
                         <p>The room information can be posted on many domestic and overseas accommodation
                             reservation sites conveniently.</p>
-                        </p>
                     </div>
                 </div>
                 <div class="feature col-12 col-sm-6 col-lg-6 d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -121,7 +120,6 @@
 
 
     <!-- News-start -->
-
     <section class="news-sec" id="news">
         <div class="container">
             <h2 class="title text-center underline pb-4">News</h2>
