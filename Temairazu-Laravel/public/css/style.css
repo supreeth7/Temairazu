@@ -472,6 +472,12 @@ body {
     font-size: 103%;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .footer-links a {
     color: #fff;
 }
@@ -493,17 +499,9 @@ body {
     padding-top: 0px;
 }
 
-iframe {
-    margin-bottom: 10px;
-}
-
 .copyright {
     font-weight: 300;
     font-size: 80%;
-}
-
-.google-maps {
-    margin-left: 22px;
 }
 
 /*** Footer ***/

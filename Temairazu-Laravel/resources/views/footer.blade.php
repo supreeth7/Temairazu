@@ -14,8 +14,8 @@
                         </p>
                     </div>
                     <hr>
-                    <div class="container row footer-links">
-                        <div class="col-xs-2">
+                    <div class="footer-links">
+                        <div>
                             <ul>
                                 <li style="font-weight: 500">
                                     <h6>Terms of use</h6>
@@ -24,7 +24,7 @@
                                 <li><a href="https://www.temairazu.com/info/trademark">Trademark rights</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-2">
+                        <div>
                             <ul>
                                 <li>
                                     <h6>Information for Investors</h6>
@@ -39,7 +39,7 @@
                                 <li><a href="https://www.temairazu.com/ir/ir_policy">IR policy</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-2">
+                        <div>
                             <ul>
                                 <li>
                                     <h6>Company</h6>
@@ -49,7 +49,7 @@
                                 <li><a href="https://www.temairazu.com/info/history">History</a></li>
                             </ul>
                         </div>
-                        <div class="col-xs-2">
+                        <div>
                             <ul class="connect">
                                 <li>
                                     <h6>Connect</h6>
@@ -66,10 +66,10 @@
                             </ul>
                         </div>
 
-                        <div class="google-maps col-xs-2">
+                        <div>
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6484.422509890929!2d139.7141659139776!3d35.64716646127721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef19ec42c9381a66!2z5omL6ZaT44GE44KJ44Ga5qCq5byP5Lya56S-!5e0!3m2!1sen!2sjp!4v1572184136493!5m2!1sen!2sjp"
-                                width="350" height="150" style="border:0;" allowfullscreen="">
+                                width="300" height="150" style="border:0;" allowfullscreen="">
                             </iframe>
                         </div>
                     </div>
