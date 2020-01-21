@@ -56,6 +56,13 @@
     @yield('content')
     <!-- Main-Content-end -->
 
+
+    <!-- Footer-start -->
+    <footer>
+        @include('footer')
+    </footer>
+    <!-- Footer-end -->
+
     <!-- Loading screen start-->
     <div class="loader-wrapper">
         <span class="loader">
@@ -63,13 +70,6 @@
         </span>
     </div>
     <!-- Loading screen end-->
-
-
-    <!-- Footer-start -->
-    <footer>
-        @include('footer')
-    </footer>
-    <!-- Footer-end -->
 
     <!-- JQuery, Bootstrap and external js file -->
     <script src="js/jquery.min.js" type="text/javascript"></script>
